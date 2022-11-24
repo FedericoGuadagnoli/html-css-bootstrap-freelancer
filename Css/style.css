@@ -1,13 +1,20 @@
+/* HEADER */
 header {
     height: 100px;
     background-color: #2C3E50;
     border: 2px dashed orange;
 }
 
-.row {
-    background-color: red;
-}
-
 [class^='col'] {
     background-color: yellow;
+    border: 2px dashed red;
+}
+
+/* MAIN */
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: green;
+    height: 400px;
+    border: 2px dashed orange;
 }
