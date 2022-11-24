@@ -14,16 +14,19 @@ header {
 
 /* JUMBOTRON */
 #jumbotron {
-    background-color: green;
+    background-color: #1ABC9C;
     height: 400px;
     border: 2px dashed orange;
 }
 
 /* SECTION PORTFOLIO */
-#portfolio > .container:first-child {
-    height: 150px;
-}
 
 #portfolio img {
     border-radius: 10px;
+}
+
+/* SECTION ABOUT */
+#about {
+    height: 500px;
+    background-color: #1ABC9C;
 }
