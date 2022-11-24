@@ -30,3 +30,9 @@ header {
     height: 500px;
     background-color: #1ABC9C;
 }
+
+/* SECTION CONTACT ME */
+#contact-me {
+    height: 500px;
+    background-color: lightcoral;
+}
