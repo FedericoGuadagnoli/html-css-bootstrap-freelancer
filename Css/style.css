@@ -1,0 +1,13 @@
+header {
+    height: 100px;
+    background-color: #2C3E50;
+    border: 2px dashed orange;
+}
+
+.row {
+    background-color: red;
+}
+
+[class^='col'] {
+    background-color: yellow;
+}
