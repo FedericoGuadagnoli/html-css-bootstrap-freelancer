@@ -22,7 +22,7 @@ header .navbar-toggler-icon {
 
 
 /* JUMBOTRON */
-#jumbotron {
+#jumbotron, #about {
     background-color: #1ABC9C;
 }
 
@@ -35,10 +35,6 @@ header .navbar-toggler-icon {
 
 
 /* SECTION ABOUT */
-#about {
-    height: 500px;
-
-}
 
 
 /* SECTION CONTACT ME */
