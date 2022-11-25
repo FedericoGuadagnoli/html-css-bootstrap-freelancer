@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css' integrity='sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==' crossorigin='anonymous'/>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
     <link rel="stylesheet" href="Css/style.css"><script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.js' integrity='sha512-L6XANV6sOsx9N9c787eDN1pjB2Pzautd3xDgn4cMKuoleHSuCJi5pCDGPCtwE3Bd4A1Olnr0k0aQXbczYzg+wg==' crossorigin='anonymous'></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-md navbar-expand-lg">
             <div class="container">
               <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler border-light d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -38,13 +39,33 @@
 
         <!-- JUMBOTRON -->
         <div id="jumbotron">
-            <div class="container h-100">
-                <div class="row h-100 d-flex justify-content-center align-items-center">
-                    <div class="col-auto h-50"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 py-2">
+                        <div class="card d-flex justify-content-center bg-transparent border-0 text-center" style=" ">
+                            <figure class="mb-0">
+                                <img src="img/avatar.svg" class="card-img-top w-50" alt="...">
+                            </figure>
+                            <div class="card-body">
+                              <h1 class="card-title text-light">START BOOTSTRAP</h1>
+                            </div>
+                            <div class="card-text d-flex justify-content-center align-items-center text-light">
+                                <div class="bar-left bg-light w-md-25 me-1"></div>
+                                <i class="fa-solid fa-star fs-3"></i>
+                                <div class="bar-right bg-light ms-1"></div>
+                            </div>
+                            <div class="card-body text-light">
+                              <a href="#" class="card-link text-light text-decoration-none">GRAPHIC ARTIST</a>
+                              <span>-</span>
+                              <a href="#" class="card-link text-light text-decoration-none">WEB DESIGNER</a>
+                              <span>-</span>
+                              <a href="#" class="card-link text-light text-decoration-none">ILLUSTRATOR</a>
+                            </div>
+                          </div>
+                    </div>
                 </div>
             </div>
         </div>
-
         <!-- SECTION PORTFOLIO -->
         <section id="portfolio" class="my-4">
             <div class="container">

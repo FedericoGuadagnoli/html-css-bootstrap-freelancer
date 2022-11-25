@@ -16,9 +16,14 @@ header .navbar-toggler-icon {
 /* JUMBOTRON */
 #jumbotron {
     background-color: #1ABC9C;
-
-    border: 2px dashed orange;
 }
+
+#jumbotron .bar-left, .bar-right {
+    height: 3px;
+    width: 15%;
+}
+
+
 
 /* SECTION PORTFOLIO */
 
@@ -29,11 +34,11 @@ header .navbar-toggler-icon {
 /* SECTION ABOUT */
 #about {
     height: 500px;
-    background-color: #1ABC9C;
+
 }
 
 /* SECTION CONTACT ME */
 #contact-me {
-    height: 500px;
+
     background-color: lightcoral;
 }
