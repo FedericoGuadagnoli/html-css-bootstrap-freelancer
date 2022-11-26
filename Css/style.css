@@ -34,11 +34,17 @@ header .navbar-toggler-icon {
 }
 
 
-/* SECTION ABOUT */
-
-
 /* SECTION CONTACT ME */
-#contact-me {
+#contact-me textarea {
+    width: 100%;
+    height: 150px;
+}
 
-    background-color: lightcoral;
+#contact-me ::placeholder {
+    color: black;
+    font-size: 18px;
+}
+
+#contact-me .btn {
+    background-color: #1ABC9C;
 }
