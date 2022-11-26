@@ -48,3 +48,26 @@ header .navbar-toggler-icon {
 #contact-me .btn {
     background-color: #1ABC9C;
 }
+
+
+/* FOOTER */
+.footer-top {
+    background-color: #3A546D;
+}
+
+.footer-bottom {
+    background-color: #2C3E50;
+}
+
+footer .border.rounded-circle.border-light {
+    height: 50px;
+    width: 50px;
+}
+
+footer i {
+    font-size: 2rem;
+}
+
+footer a {
+    color: #1ABC9C;
+}
