@@ -8,7 +8,7 @@ header .navbar-collapse {
 }
 
 header .navbar-toggler-icon {
-    filter: invert;
+    filter: invert();
 }
 
 /* MAIN */
